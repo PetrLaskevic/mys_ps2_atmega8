@@ -6,7 +6,7 @@ Takže asi zde je jádro problému. Asi myš nic neposílá, protože nesvítí.
 S programem z kroužku (než jsem flashnul svůj domácí program) včera myš svítíla, ačkoli data taky nebyla příjímána (`ps2_avail()` nebylo nikdy true), dříve dnes, se stejným programem však blikala.
 Možná se jedná o variability v zapojení (vyskočil drátek, a nevšiml jsem si toho)
 
-V každém případě, ať už svítí, bliká, nebo nesvítí, data se do PC přes serial nedostanou.
+V každém případě, ať už svítí, bliká, nebo nesvítí, data se do PC přes serial nedostanou (stejně jako na kroužku).
 
 Od kroužku jsem zmenšil mainMujMod.c, aby tam byly jenom ps2 věci, protože mi předchozí soubor z kroužku nešel kompilovat (když jsem napsal příkaz make, dostával jsem proud tohoto:
 
